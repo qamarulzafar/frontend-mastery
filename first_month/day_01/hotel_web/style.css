@@ -1,0 +1,1027 @@
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header{
+  width: 100%;
+  height: 110px;
+  border: 1px solid black;
+
+}
+
+header .header-logo{
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 40px;
+}
+
+
+.header-menu{
+  display: inline-block;
+  float: right;
+}
+
+
+.header-menu ul{
+  display: flex;
+  margin-top: 35px;
+  margin-right: 80px;
+}
+
+.header-menu ul li {
+  list-style-type: none;
+  margin-right: 10px;
+  transition: 0.3s ease;
+  padding: 10px 0px;
+}
+
+
+.header-menu ul li a{
+  color: black;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-family: arial;
+  padding: 12px;
+}
+
+
+.header-menu ul li:nth-child(1){
+  background-color: #AE9D20;
+}
+
+
+.header-menu ul li:nth-child(1) a {
+  color: white;
+}
+
+
+.header-menu button {
+  background-color: #AE9D20;
+  color: white;
+  text-transform: capitalize;
+  padding: 14px 18px;
+  border: none;
+  font-size: 15px;
+  margin-top: -4px;
+  margin-right: -20px;
+  transition: 0.3s ease;
+}
+
+.header-menu button:hover{
+  background-color: #1f1f32;
+}
+
+
+.header-menu ul li:nth-child(2):hover{
+  background-color: #AE9D20;
+}
+
+.header-menu ul li:nth-child(2) a:hover {
+  color: white;
+}
+
+
+
+
+
+.header-menu ul li:nth-child(3):hover{
+  background-color: #AE9D20;
+ }
+
+.header-menu ul li:nth-child(3) a:hover {
+  color: white;
+}
+
+
+.header-menu ul li:nth-child(4):hover{
+  background-color: #AE9D20;
+  
+}
+
+.header-menu ul li:nth-child(4) a:hover {
+  color: white;
+}
+
+
+.header-menu ul li:nth-child(5):hover{
+  background-color: #AE9D20;
+ 
+}
+
+.header-menu ul li:nth-child(5) a:hover {
+  color: white;
+}
+
+.header-menu ul li:nth-child(6){
+  margin-right: 90px;
+}
+
+.header-menu ul li:nth-child(6):hover{
+  background-color: #AE9D20;
+
+}
+
+.header-menu ul li:nth-child(6) a:hover {
+  color: white;
+}
+
+
+.center-container img {
+    background-size: cover;
+}
+
+
+.center-container-pic{
+    width: 100%;
+    height: 800px;
+    background-image: url(pic/hotel\ pic.jpg);
+    background-size: cover;
+}
+
+.center-container-pic-box{
+    width: 800px;
+    height: 400px;
+    background-color:#000000a1;
+    margin: 0px auto;
+    position: relative;
+    top: 200px;
+    border: 3px solid #AE9D20;
+  }   
+
+  .center-container-pic-box-line{
+     width: 130px;
+     height: 3px;
+     background-color: #AE9D20;
+     margin: 50px auto;
+  }
+
+
+  .center-container-pic-box h1{
+     font-size: 80px;
+     font-family: arial;
+     color: white;
+     text-align: center;
+  }
+
+  .center-container-pic-box h2{
+    font-size: 80px;
+    color: white;
+    font-family: arial;
+    text-align: center;
+  }
+
+  .center-container-pic-small-box-1{
+    width: 35px;
+    height: 35px;
+    font-family: arial;
+    color: white;
+  }
+
+  .center-container-pic-small-box-2{
+    width: 35px;
+    height: 35px;
+    background-color: #1b3f4c;
+    color: white;
+    border: 1px solid #AE9D20;
+    font-family: arial;
+  }
+
+  .center-container-pic-small-box-1 p{
+    text-align: center;
+    margin-top: 7.5px;
+  }
+
+  .center-container-pic-small-box-2 p{
+    text-align: center;
+    margin-top: 7.5px;
+  }
+
+  .center-container-small-boxex{
+    display: flex;
+    margin-top: 340px;
+  }
+
+  .rooms-box-section{
+    display: flex;
+    position: relative;
+    top: -90px;
+    margin-left: 170px;
+  }
+
+  .rooms-box-section .box1{
+    width: 185px;
+    height: 185px;
+    background-color: #363636;
+    border: 2px solid #AE9D20;
+    border-right: none;
+  }   
+
+  .rooms-box-section .box2{
+    width: 185px;
+    height: 185px;
+    background-color: #363636;
+    border: 2px solid #AE9D20;
+    border-right: none;
+  }  
+
+  .rooms-box-section .box3{
+    width: 185px;
+    height: 185px;
+    background-color: #363636;
+    border: 2px solid #AE9D20;
+    border-right: none;
+  }  
+
+  .rooms-box-section .box4{
+    width: 185px;
+    height: 185px;
+    background-color: #363636;
+    border: 2px solid #AE9D20;
+    border-right: none;
+  }  
+
+  .rooms-box-section .box5{
+    width: 185px;
+    height: 185px;
+    background-color: #AE9D20;
+    border: 2px solid #AE9D20;
+  }  
+
+
+  .rooms-box-section .box1 h4 {
+    color: #AE9D20;
+    font-weight: lighter;
+    font-family: arial;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-transform: capitalize;
+  }
+
+  .rooms-box-section .box1 input{
+    width: 130px;
+    height: 40px;
+    padding: 10px 0px;
+    margin-left: 20px;
+    margin-top: 8px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    border: none;
+    background-color: #e9ecef;
+    
+  }
+
+  .rooms-box-section .box1 input::placeholder{
+    color: gray;
+    padding: 3px;
+    font-size: 17px;
+  }
+
+
+  
+  .rooms-box-section .box2 h4 {
+    color: #AE9D20;
+    font-weight: lighter;
+    font-family: arial;
+    margin-top: 50px;
+    margin-left: 20px;
+    text-transform: capitalize;
+  }
+
+  .rooms-box-section .box2 input{
+    width: 130px;
+    height: 40px;
+    padding: 10px 0px;
+    margin-left: 20px;
+    margin-top: 8px;
+    text-transform: capitalize;
+    border-radius: 4px;
+    border: none;
+    background-color: #e9ecef;
+    
+  }
+
+  .rooms-box-section .box2 input::placeholder{
+    color: gray;
+    padding: 3px;
+    font-size: 17px;
+  }
+
+  .rooms-box-section .box3 h3{
+    color: #AE9D20;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-family: arial;
+  }
+
+  .rooms-box-section .box3 h5{
+    color: white;
+    font-size: 24px;
+    font-family: arial;
+    margin-left: 20px;
+  }
+
+
+  
+  .rooms-box-section .box4 h3{
+    color: #AE9D20;
+    margin-top: 70px;
+    margin-left: 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    font-family: arial;
+  }
+
+  .rooms-box-section .box4 h5{
+    color: white;
+    font-size: 24px;
+    font-family: arial;
+    margin-left: 20px;
+  }
+
+
+  .rooms-box-section .box5 h3{
+    text-transform: uppercase;
+    color: white;
+    font-family: arial;
+    margin-top: 73px;
+    margin-left: 32px;
+  }
+
+  .rooms-box-section .box5:hover{
+    background-color: #363636;
+  }
+
+
+
+  .after-room-section .pic{
+    width: 550px;
+    height: 370px;
+    float: right;
+    margin-top: 0px;
+    margin-right: 70px;
+    background-image: url(pic/heart\ of\ karachi.jpg);
+    background-size: cover;
+  }
+
+
+  .after-room-section .heart-of-karachi{
+      width: 550px;
+      height: 475px;
+      margin: 50px 0px 0px 0px;
+      margin-left: 80px;
+      position: relative;
+      top: -30px;
+  }
+
+
+  .heart-of-karachi .heart-of-karachi-line{
+    width: 100px;
+    height: 3px;
+    background-color: #AE9D20;
+    margin: 50px auto 0px;
+  }
+
+
+  .heart-of-karachi h1{
+    font-family: arial;
+    text-align: center;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #363636;
+    margin-top: 40px;
+  }
+
+  .heart-of-karachi p{
+    color: #7d7d7d;
+    font-size: 14px;
+    font-family: arial;
+    line-height: 2.1;
+    margin-top: 45px;
+    text-align: center;
+    padding: 10px;
+  }
+
+
+  .heart-of-karachi button{
+    padding: 17px 30px;
+    text-transform: capitalize;
+    background-color: #AE9D20;
+    border: none;
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+    margin: 60px 0px 0px 205px;
+  }
+
+  .banquet-container-pic{
+    height: 950px;
+    background-image: url(pic/banquet\ pic.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+
+  .banquet-halls-center{
+    width: 600px;
+    height: 700px;
+    background-color:  #000000a1;
+    border: 2px solid #AE9D20;
+    float: right;
+    margin-top: 130px;
+    margin-right: 80px;
+    padding: 20px;
+  }
+
+  .banquet-halls-center-line{
+    width: 100px;
+    height: 2px;
+    background-color: #AE9D20;
+    margin: 60px auto 0px;
+  }
+
+  .banquet-halls-center h1{
+    text-transform: capitalize;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: arial;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 40px;
+  }
+
+  .banquet-halls-center p{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 25px 17px 0px 17px;
+    line-height: 2.1;
+    font-family: arial;
+  }
+
+
+  .banquet-halls-center .logo-crown{
+    width: 180px;
+    height: 180px;
+  }
+
+  
+  .banquet-halls-center .logo-gem{
+    width: 180px;
+    height: 180px;
+  }
+
+  
+  .banquet-halls-center .logo-tree{
+    width: 180px;
+    height: 180px;
+  }
+
+
+  .banquet-halls-center-logos{
+    display: flex;
+    margin-left: 20px;
+  }
+
+  .banquet-halls-center-logos .logo-crown i {
+    color: #AE9D20;
+    font-size: 60px;
+    padding-top: 40px;
+    padding-left: 55px;
+  }
+
+  
+  .banquet-halls-center-logos .logo-crown h3 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+  }
+
+
+  
+  .banquet-halls-center-logos .logo-gem i {
+    color: #AE9D20;
+    font-size: 60px;
+    padding-top: 40px;
+    padding-left: 60px;
+  }
+
+  
+  .banquet-halls-center-logos .logo-gem h2 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+  }
+
+
+  
+  .banquet-halls-center-logos .logo-tree i {
+    color: #AE9D20;
+    font-size: 60px;
+    padding-top: 40px;
+    padding-left: 60px;
+  }
+
+  
+  .banquet-halls-center-logos .logo-tree h3 {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: arial;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: capitalize;
+  }
+
+
+  .banquet-halls-center-button button{
+    padding: 17px 30px;
+    text-transform: capitalize;
+    background-color: #AE9D20;
+    border: none;
+    color: white;
+    font-family: arial;
+    font-size: 15px;
+    margin-left: 220px;
+    margin-top: 40px;
+    transition: 1s ease;
+  }
+
+
+  .banquet-halls-center-button button:hover{
+    background-color:#363636;
+  }
+
+
+  .book-room-text {
+    width: 600px;
+    height: 200px;
+    margin: 70px auto 0px;
+  }
+
+  .book-room-text-line{
+    width: 100px;
+    height: 2px;
+    background-color: #AE9D20;
+    margin: 0px auto;
+  }
+
+  .book-room-text h1{
+    font-family: Arial;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 45px;
+    font-weight: lighter;
+    color: #363636;
+  }
+
+
+  .book-room-text p {
+    color: #7d7d7d;
+    font-family: arial;
+    font-size: 14.5px;
+    text-align: center;
+    line-height: 2;
+    margin-top: 20px;
+  }
+
+  .book-room-card {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 61px;
+  }
+
+  .card-1{
+    width: 365px;
+    height: 521px;
+    position: relative;
+    background-image: url(pic/box-card-pic-1\ \(3\).jpg);
+    background-size:cover;
+
+  }
+
+  .card-1 .price-tag {
+    width: 180px;
+    height: 60px;
+    border: 2px solid #AE9D20;
+    position: relative;
+    left: 84px;
+    top: -30px;
+    background-color: #363636;
+  }
+
+  .card-1 .price-tag h4 {
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-family: arial;
+    font-weight: lighter;
+    line-height: 0.5;
+  }
+
+  .card-1 .price-tag p {
+    color: #FFFFFF;
+    margin-left: 19px;
+    font-family: arial;
+    font-weight: lighter;
+  }
+
+  .card-1 .room-specification {
+    width: 310px;
+    height: 410px;
+    border: 2px solid #AE9D20;
+    margin-top: 40px;
+    margin-left: 24px;
+    background-color: #000000a1;
+    transition: 1s ease;
+  }
+
+  .card-1 .room-specification:hover {
+    background-color: #181818;
+  }
+
+  .room-specification-line{
+    width: 100px;
+    height: 2px;
+    background-color: #AE9D20;
+    margin: 30px auto;
+  }
+
+  .room-specification h1 {
+    font-family: arial;
+    color: #FFFFFF;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 100;
+    text-transform: capitalize;
+  }
+
+  .room-specification p {
+    color: #FFFFFF;
+    font-family: arial;
+    text-align: center;
+    font-size: 14.5px;
+    padding: 20px;
+    line-height: 1.9;
+  }
+
+
+  .card-1 button {
+    width: 140px;
+    height: 50px;
+    background-color: #AE9D20;
+    color: #FFFFFF;
+    font-family: arial;
+    border: none;
+    font-size: 16.5px;
+    position: relative;
+    left: 100px;
+    top: -20px;
+    transition: 1s ease;
+  }
+
+  .card-1 button:hover {
+    background-color: #363636;
+  }
+
+/* card 2 */
+
+
+
+.card-2{
+  width: 365px;
+  height: 521px;
+  position: relative;
+  background-image: url(pic/box-card-pic-2.jpg);
+  background-size:cover;
+  margin-left: 25px;
+}
+
+.card-2 .price-tag {
+  width: 180px;
+  height: 60px;
+  border: 2px solid #AE9D20;
+  position: relative;
+  left: 84px;
+  top: -30px;
+  background-color: #363636;
+}
+
+.card-2 .price-tag h4 {
+  color: #FFFFFF;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: arial;
+  font-weight: lighter;
+  line-height: 0.5;
+}
+
+.card-2 .price-tag p {
+  color: #FFFFFF;
+  margin-left: 19px;
+  font-family: arial;
+  font-weight: lighter;
+}
+
+.card-2 .room-specification {
+  width: 310px;
+  height: 410px;
+  border: 2px solid #AE9D20;
+  margin-top: 40px;
+  margin-left: 24px;
+  background-color: #000000a1;
+  transition: 1s ease;
+}
+
+.card-2 .room-specification:hover {
+  background-color: #181818;
+}
+
+.room-specification-line{
+  width: 100px;
+  height: 2px;
+  background-color: #AE9D20;
+  margin: 30px auto;
+}
+
+.room-specification h1 {
+  font-family: arial;
+  color: #FFFFFF;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+.room-specification p {
+  color: #FFFFFF;
+  font-family: arial;
+  text-align: center;
+  font-size: 14.5px;
+  padding: 20px;
+  line-height: 1.9;
+}
+
+
+.card-2 button {
+  width: 140px;
+  height: 50px;
+  background-color: #AE9D20;
+  color: #FFFFFF;
+  font-family: arial;
+  border: none;
+  font-size: 16.5px;
+  position: relative;
+  left: 100px;
+  top: -20px;
+  transition: 1s ease;
+}
+
+.card-2 button:hover {
+  background-color: #363636;
+}
+
+
+/* card-3 */
+
+
+
+
+.card-3{
+  width: 365px;
+  height: 521px;
+  position: relative;
+  background-image: url(pic/box-card-pic-3.jpg);
+  background-size:cover;
+  margin-left: 25px;
+}
+
+.card-3 .price-tag {
+  width: 180px;
+  height: 60px;
+  border: 2px solid #AE9D20;
+  position: relative;
+  left: 84px;
+  top: -30px;
+  background-color: #363636;
+}
+
+.card-3 .price-tag h4 {
+  color: #FFFFFF;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: arial;
+  font-weight: lighter;
+  line-height: 0.5;
+}
+
+.card-3 .price-tag p {
+  color: #FFFFFF;
+  margin-left: 19px;
+  font-family: arial;
+  font-weight: lighter;
+}
+
+.card-3 .room-specification {
+  width: 310px;
+  height: 410px;
+  border: 2px solid #AE9D20;
+  margin-top: 40px;
+  margin-left: 24px;
+  background-color: #000000a1;
+  transition: 1s ease;
+}
+
+.card-3 .room-specification:hover {
+  background-color: #181818;
+}
+
+.room-specification-line{
+  width: 100px;
+  height: 2px;
+  background-color: #AE9D20;
+  margin: 30px auto;
+}
+
+.room-specification h1 {
+  font-family: arial;
+  color: #FFFFFF;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+.room-specification p {
+  color: #FFFFFF;
+  font-family: arial;
+  text-align: center;
+  font-size: 14.5px;
+  padding: 20px;
+  line-height: 1.9;
+}
+
+
+.card-3 button {
+  width: 140px;
+  height: 50px;
+  background-color: #AE9D20;
+  color: #FFFFFF;
+  font-family: arial;
+  border: none;
+  font-size: 16.5px;
+  position: relative;
+  left: 100px;
+  top: -20px;
+  transition: 1s ease;
+}
+
+.card-3 button:hover {
+  background-color: #363636;
+}
+
+.contact-section{
+  display: flex;
+}
+
+
+.contact{
+  width: 350px;
+  height: 400px;
+  margin-top: 220px;
+  margin-left: 100px;
+}
+
+
+.contact-section .contact .contact-info {
+  color: #363636;
+  font-family: arial;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: lighter;
+  margin-top: 40px;
+}
+
+.contact-section .contact .address {
+  font-family: arial;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #7d7d7d;
+  margin-top: 40px;
+}
+
+.contact-section .contact .contact-num {
+  color: gray;
+  font-family: arial;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.contact-section .contact .email {
+  color: gray;
+  font-family: arial;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.contact-section iframe {
+  margin-top: 40px;
+  width: 650px;
+}
+
+.contact .contact-line{
+  width: 100px;
+  height: 2px;
+  background-color: #AE9D20;
+}
+
+.contact .icons i {
+  font-size: 28px;
+  margin-top: 25px;
+  margin-right: 15px;
+}
+
+
+footer{
+  width: 100%;
+  height: 550px;
+  background-color: #363636;
+  margin-top: 30px;
+ 
+  
+}
+
+.box-1{
+  width: 450px;
+  height: 450px;
+  margin-left: 70px;
+}
+
+
+footer .box-1 p {
+color: #FFFFFF;
+font-family: arial;
+line-height: 1.7;
+padding: 5px;
+}
+
+footer .box-2{
+  width: 300px;
+  height: 200px;
+  background-image: url(pic/footer-map.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+footer .box-3{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+footer .box-3 input{
+  width: 210px;
+  height: 40px;
+  border: 2px solid #AE9D20;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+
+footer .box-3 input::placeholder{
+  color: #7d7d7d;
+  text-transform: capitalize;
+  padding-left: 10px;
+  font-size: 13px;
+}
+
+footer .box-3 button {
+  width: 210px;
+  height: 40px;
+  background-color: #AE9D20;
+  border: none;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+.footer-sections{
+  display: flex;
+}
