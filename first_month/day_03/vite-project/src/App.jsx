@@ -4,7 +4,7 @@ import './App.css'
 import About from './Components/About';
 import Contact from './Components/Contact';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Hero from './Components/Hero';
+import Hero from './Components/hero';
 import Courses from "./Components/Courses";
 
 
