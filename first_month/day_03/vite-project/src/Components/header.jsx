@@ -9,7 +9,7 @@ const Header = () => {
           <h3>Qamar</h3>
         </div>
         <div className="nav">
-          <a href="/"><span>Home</span></a>
+          <a href="/"><span>Home</span></a> 
           <a href="/about"><span>About</span></a>
           <a href="/contact"><span>Contact</span></a>
         </div>
