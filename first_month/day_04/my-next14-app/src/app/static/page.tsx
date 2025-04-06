@@ -5,7 +5,7 @@ import { CheckCircle, XCircle } from "lucide-react"
 import Link from "next/link"
 
 async function getData() {
-  const res = await fetch("https://jsonplaceholder.typicode.com/todos/1", {
+  const res = await fetch("https://jsonplaceholder.typicode.com/todos/4", {
   })
   return res.json()
 }
